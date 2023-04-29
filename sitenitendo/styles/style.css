@@ -1,0 +1,126 @@
+
+*{
+    padding: 0%;
+    margin: 0%
+}
+body{
+
+    background-image: url(../imgs/8686fca0178fc667b14baf4fc348e831.jpg);
+
+
+}
+#conteiner{
+
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    background-color: rgb(232, 230, 228);
+
+}
+header{
+
+    width: 100%;
+    height: 800px;
+    background-color: rgb(233, 8, 8);
+    text-align: center;
+}
+#menu{
+    margin: 0 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.conteudo{
+    width: 100%;
+    height: auto;
+    background-color: rgb(234, 237, 239);
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#conteudo1{
+    margin-top: 20px;
+}
+.jogo{
+ 
+    width: 250px;
+    height: 250px;
+    display: grid;
+    background-color: rgb(159, 151, 139);
+    border: solid rgb(159, 151, 139) 5px;
+}
+/* IMAGENS JOGOS */
+#jogo1{
+    background-image: url(../imgs/f74d8694bedb5967c075aa5a8fbc1a62.gif) ;
+    background-size: cover;
+}
+#jogo2{
+    background-image: url(../imgs/f74d8694bedb5967c075aa5a8fbc1a62.gif) ;
+    background-size: cover;
+}
+#jogo3{
+    background-image: url(../imgs/f74d8694bedb5967c075aa5a8fbc1a62.gif) ;
+    background-size: cover;
+}
+#jogo4{
+    background-image: url(../imgs/f74d8694bedb5967c075aa5a8fbc1a62.gif) ;
+    background-size: cover;
+}
+footer{
+    background-color: black;
+}
+/* GERAIS */
+a{
+    text-decoration: none;
+    color: black;
+
+}
+h1{
+    color: rgb(10, 10, 10);
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    color: black;
+}
+
+/* Casos EXPECIFICOS */
+header img{
+
+    width: 800px;
+    height: 450px;
+}
+header a{
+
+    border: solid white 1px;
+    background-color: aliceblue;
+    width: 125px;
+    padding: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+   
+
+}
+header a:hover{
+
+    color: rgb(188, 20, 20);
+    background-color: rgb(191, 225, 225);
+    padding: 35px;
+}
+header h1,p{
+    
+    color: rgb(250, 246, 246);
+
+}
+
+.jogo a{
+
+    padding: 75px;
+    background: red;
+
+}
+footer p{
+    color: aliceblue;
+}
